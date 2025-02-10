@@ -7,7 +7,7 @@ import { Injectable } from '@angular/core';
 export class WeatherService {
 
   weatherDetails: any;
-  private apiKey = 'a3debfe360dc4d949ac12616250902';
+  private apiKey = 'Add your API key here';
   private url = 'http://api.weatherapi.com/v1/current.json';
 
   constructor(private http: HttpClient) { }
